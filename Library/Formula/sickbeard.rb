@@ -7,7 +7,7 @@ class Sickbeard < Formula
 
   head 'git://github.com/midgetspy/Sick-Beard.git'
 
-  depends_on 'Cheetah' => :python
+  depends_on 'cheetah'
 
   def install
     prefix.install Dir['*']
